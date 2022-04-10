@@ -1,7 +1,10 @@
 @import "open-props/style";
 @import "open-props/normalize";
 @import url('https://rsms.me/inter/inter.css');
+
+
 html { font-family: 'Inter', sans-serif; }
+
 @supports (font-variation-settings: normal) {
   html { font-family: 'Inter var', sans-serif; }
 }
@@ -33,7 +36,7 @@ body {
 }
 
 .card__heading {
-  color: var(--pink-4);
+  color: var(--blue-4);
 }
 
 .card__content {
@@ -42,14 +45,14 @@ body {
 }
 
 .card__btn {
-  background-color: var(--pink-4);
+  background-color: var(--blue-4);
   width: max-content;
   color: white;
   padding: var(--size-2) var(--size-fluid-2);
   border-radius: var(--radius-4);
   margin-top: var(--size-fluid-1);
   box-shadow: var(--shadow-1);
-  transition: box-shadow 250ms var(--ease-squish-3)
+  transition: all 250ms var(--ease-squish-1)
   }
 
 .card__btn:is(:hover, :focus) {
